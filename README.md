@@ -35,12 +35,7 @@
 <code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/pytorch/pytorch/39fa0b5d0a3b966a50dcd90b26e6c36942705d6d/docs/source/_static/img/pytorch-logo-dark.svg"></code>
 
-## DEPLOYMENT 🚀
 
-#### Deployment is done using [deploy](https://github.com/Gladiator07/Harvestify/tree/deploy) branch
-#### This website is deployed at [Heroku](https://www.heroku.com/)
-#### You can access it [here](https://harvestify.herokuapp.com/)
-#### Note: The website may take a minute to load sometimes, as the server may be in hibernate state
 
 ## How to use 💻
 - Crop Recommendation system ==> enter the corresponding nutrient values of your soil, state and city. Note that, the N-P-K (Nitrogen-Phosphorous-Pottasium) values to be entered should be the ratio between them. Refer [this website](https://www.gardeningknowhow.com/garden-how-to/soil-fertilizers/fertilizer-numbers-npk.htm) for more information.
@@ -73,10 +68,10 @@ Note that, for now it only supports following crops
 
 ## How to run locally 🛠
 - Before the following steps make sure you have [git](https://git-scm.com/download), [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
-- Clone the complete project with git clone https://github.com/Gladiator07/Harvestify.git or you can just download the code and unzip it
+- Clone the complete project with git clone https://github.com/Kishorerz/Precision-Farming.git or you can just download the code and unzip it
 - *Note:* The master branch doesn't have the updated code used for deployment, to download the updated code used for deployment you can use the following command
   
-  ❯ git clone -b deploy https://github.com/Gladiator07/Harvestify.git 
+  ❯ git clone -b deploy https://github.com/Kishorerz/Precision-Farming.git
   
 - deploy branch has only the code required for deploying the app (rest of the code that was used for training the models, data preparation can be accessed on master branch)
 - It is highly recommended to clone the deploy branch for running the project locally (the further steps apply only if you have the deploy branch cloned)
